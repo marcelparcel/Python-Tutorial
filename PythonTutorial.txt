@@ -1,0 +1,182 @@
+print("Hello World")
+
+age = 20
+print(age)
+
+age = 18
+print(age)
+
+age = 20
+price = 19.99 
+first_name = "Mr. Doe"
+is_online = True
+print(first_name + " is " + str(age) + " years old")
+
+age = 20
+name = "James Smith"
+print(f"{name} is {age} years old")
+
+name = input("what is your name")
+print("Hello " + name)
+
+birth_year = input("Enter your birth year")
+age = 2021 - birth_year
+print (age)
+
+birth_year = input("Enter your birth year")
+age = 2021 - int(birth_year)
+print (age)
+
+print(2 + 3)
+
+# The string class contains a lot of built-in methods
+course = 'Discover AI'
+print(course.find('i'))
+
+# Addition
+print("10 + 3 = " + str(10 + 3))
+
+# Subtraction
+print("10 - 3 = " + str(10 - 3))
+
+# Multiplication
+print("10 * 3 = " + str(10 * 3))
+
+# Division
+print("10 / 3 = " + str(10 / 3))
+
+# Division with integer
+print("10 //3 = " + str(10 // 3))
+
+# Modulus 
+print("10 % 3 = " + str(10 % 3))
+
+# Exponent
+print("10 ** 3 = " + str(10 ** 3))
+
+# Augmented operators
+x = 10
+x += 3
+print(x)
+
+x = 10 + 3 * 2
+print (x)
+
+# They return boolean (True/False) solutions
+
+# Greater than
+print("10 > 3: " + str(10 > 3))
+# Greater than or equal to
+print("3 >= 3: " + str(10 >= 3))
+# Less than
+print("10 < 3: " + str(10 < 3))
+# Less than or equal to
+print("10 <= 3: " + str(10 <= 3))
+# Equal
+print("10 == 3: " + str(10 == 3))
+# Not equal
+print("10 != 3: " + str(10 != 3))
+
+
+# Used for building complex rules and conditions
+
+# Using "and" check that a price is between two values
+price = 25
+print("Price between 10 and 30: " + str(price > 10 and price < 30))
+
+# Using "or" check that a price is either of two values
+price = 25
+print("Price is either 10 or 30: " + str(price == 10 or price == 30))
+
+# Using "not" check that a price is less than a value
+price = 25
+print("Price is less than 30: " + str(not price < 30))
+
+# Used to make decisions
+
+# Print a message if the temperature is > 30
+temperature = 35
+if(temperature > 30):
+    print("It's a hot day")
+    print("Drink plenty of water")
+# Everything below will be outside of the conditional statement
+print ("Done")
+
+temperature = 25
+if(temperature > 30):
+    print("It's a hot day")
+    print("Drink plenty of water")
+if(temperature >= 20 or temperature <= 30):
+    print("It's a nice day")
+
+kg = input("Enter your weight in kilograms:")
+lbs = int(kg) * 2.204
+print(f"You are {lbs} pounds")
+
+i = 1
+while i <= 1000:
+    print(i)
+    i = i + 1
+
+
+# list of names
+names = ["Jane", "John", "Mary", "Sam", "Safi"]
+print(names)
+
+# print the first three names
+print(names[0:3])
+
+# Add a name at the head of the list
+names.insert(0, "Marcel")
+print(names)
+
+numbers = [1, 2, 3, 4, 5, 6]
+# Append
+numbers.append(7)
+print(numbers)
+
+# Insert
+numbers.insert(0, -1)
+print(numbers)
+
+# Remove
+numbers.remove(3)
+print(numbers)
+
+# Clear
+numbers.clear()
+print(numbers)
+
+# In 
+print(10 in numbers)
+
+# Len
+print (len(numbers))
+
+numbers = [1, 2, 3, 4, 5,]
+for item in numbers:
+    print (item)
+
+# The function can have 1 to 3 arguments.
+
+# 1. generate numbers up to a value
+numbers = range(5)
+for number in numbers:
+    print(number)
+
+# 2. generate a numbers from a specified value up to a specified value
+numbers = range(5, 10)
+for number in numbers:
+    print(number)
+
+# 3. generate number similarly to above, but in steps
+numbers = range(5, 10, 2)
+for numbers in range(5):
+    print(number)
+
+# Immutable (unchangeable) elements
+numbers = (1, 2, 3)
+
+
+
+
